@@ -8,24 +8,33 @@
     ],
     "sprites":  {
         "background": {
-            "type": "sprite",
-            "position": {"x": 320,"y": 240 },
-            "texture": "background_image",
-            "group": "background"
+            "type": "background",
+            "position": {"x": 0,"y": 0 },
+            "properties": {
+                "texture": "background_image",
+                "group": "background",
+                "anchor": {"x": 0, "y": 0}
+            }
         },
         "title_message": {
             "type": "text",
             "position": {"x": 250, "y":100},
-            "text": "RPG", 
-            "style": {"font": "65px Arial", "fill": "#0000000"},
-            "group": "texts"
+            "properties":{
+                "text": "RPG", 
+                "style": {"font": "65px Arial", "fill": "#0000000"},
+                "group": "texts"
+            }
+            
         },
         "start_message": {
             "type": "text",
             "position": {"x": 265, "y": 200},
-            "text": "Click to play",
-            "style": {"font": "20px Arial", "fill": "#0000000"},
-            "group": "texts"
+            "properties":{
+                "text": "Click to play",
+                "style": {"font": "20px Arial", "fill": "#0000000"},
+                "group": "texts"
+            }
+           
         }
     }
 }
