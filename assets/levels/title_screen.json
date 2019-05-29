@@ -1,0 +1,31 @@
+{
+    "assets":   {
+        "background_image": {"type": "image", "source": "assets/images/battle/background.png"}
+    },
+    "groups":   [
+        "background",
+        "texts"
+    ],
+    "sprites":  {
+        "background": {
+            "type": "sprite",
+            "position": {"x": 320,"y": 240 },
+            "texture": "background_image",
+            "group": "background"
+        },
+        "title_message": {
+            "type": "text",
+            "position": {"x": 250, "y":100},
+            "text": "RPG", 
+            "style": {"font": "65px Arial", "fill": "#0000000"},
+            "group": "texts"
+        },
+        "start_message": {
+            "type": "text",
+            "position": {"x": 265, "y": 200},
+            "text": "Click to play",
+            "style": {"font": "20px Arial", "fill": "#0000000"},
+            "group": "texts"
+        }
+    }
+}
